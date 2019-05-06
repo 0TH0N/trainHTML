@@ -83,12 +83,17 @@ body {
   padding: 0 30px;
 }
 
+.alternative-background-wrapper {
+  background: #fff;
+  padding: 66px 0 44px 0;
+}
+
 a {
   text-decoration: none;
 }
 /* start header */
 .header {
-  padding-bottom: 21px;
+  height: 176px;
 }
 
 .header a:hover {
@@ -141,20 +146,15 @@ a {
   background: linear-gradient(to right, #a1d3b0, #f6f1d3);
 }
 
-.main-background-wrapper main {
-  margin-bottom: 0px;
-  padding-bottom: 15px;
-}
-
 .main {
   text-align: center;
-  margin-bottom: 65px;
+  padding: 44px 0 22px 0;
 }
 
 .main__header {
   color: #648880;
   font-size: 36px;
-  padding-top: 55px;
+  line-height: 44px;
 }
 
 .main__content {
@@ -168,12 +168,11 @@ a {
 
 .main__content-speakers {
   width: 900px;
-  margin: 33px auto 0 auto;
+  margin: 21px auto 23px auto;
   line-height: 33px;
   color: #888;
   font-size: 21px;
   font-weight: 300;
-  padding-bottom: 30px;
 }
 
 .main__reg-button {
@@ -197,11 +196,6 @@ a {
 /* end main */
 
 /* start description */
-.description-background-wrapper {
-  background: #fff;
-  padding: 68px 0;
-}
-
 .description-column {
   float: left;
   width: 31.15%;
@@ -321,4 +315,42 @@ a {
 
 .speaker-photo a:hover {
   color: #a9b2b9;
+}
+/* end speakers */
+
+/* start schedule table */
+.schedule-table {
+  color: #a9b2b9;
+}
+
+.schedule-table th {
+  text-align: right;
+  font-weight: 400;
+  padding-right: 45px;
+  width: 20%;
+}
+
+.schedule-table td {
+  padding: 22px 0;
+  width: 40%;
+  padding-right: 15px;
+}
+
+.schedule-table tbody td {
+  border-top: 1px solid #dfe2e5;
+}
+
+.schedule-table .schedule-table__main-header {
+  font-size: 24px;
+  color: #648880;
+  font-weight: 300;
+}
+
+.complicated-table-item p:first-child {
+  color: #648880;
+  font-size: 18px;
+}
+
+.complicated-table-item p:last-child {
+  color: #888;
 }
