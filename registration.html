@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Styles Conference</title>
+    <link rel="stylesheet" href="style.css" crossorigin="use-credentials">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,100&subset=cyrillic,latin">
+    <script src=""></script>
+</head>
+
+<body>
+    <header class="header container clearfix">
+        <h1 class="header__logo"><a href="index.html">Styles<br>Conference</a></h1>
+        <h5 class="header__event-date">24&ndash;26 августа &mdash; Чикаго, штат Иллинойс</h5>
+        <nav class="general-menu">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="speakers.html">Спикеры</a></li>
+                <li><a href="schedule.html">Расписание</a></li>
+                <li><a href="venue.html">Место проведения</a></li>
+                <li><a href="registration.html">Регистрация</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-background-wrapper">
+        <main class="main container">
+            <h3 class="main__header">
+                Место проведения
+            </h3>
+            <h2 class="main__content-speakers">
+                Конференция состоится в театре Чикаго, красивой исторической достопримечательности.
+                Гостиница конференции расположена в нескольких минутах ходьбы вниз по Стейт-Стрит. </h2>
+        </main>
+    </div>
+
+    <div class="alternative-background-wrapper">
+        <section class="container">
+            <section class="regform clearfix">
+                <div class="regform-info">
+                    <h3 class="regform-info__title">
+                        Закажи билет на конференцию
+                    </h3>
+
+                    <p class="regform-info__under-title">
+                        $99 за билет
+                    </p>
+                    <p class="regform-info__main-body">
+                        Приобретите билет на Styles Conference, используя форму справа. Можно приобрести сразу несколько
+                        билетов, так что не стесняйтесь взять с собой друга или двух. После того, как ваш заказ будет
+                        готов,
+                        мы свяжемся с вами и предоставим квитанцию за покупку. Скоро увидимся!
+                    </p>
+                    <h4 class="regform-info__little-title">
+                        Зачем участвовать?
+                    </h4>
+                    <ul>
+                        <li>Более двадцати спикеров мирового класса</li>
+                        <li>Один полный день мастер-классов и два полных дня презентаций</li>
+                        <li>Состоится в Театре Чикаго, исторической достопримечательности</li>
+                        <li>Август в Чикаго просто поражает</li>
+                    </ul>
+                </div>
+                <form class="regform-form" action="#" method="post">
+                    <fieldset>
+                        <label>
+                            Имя<br>
+                            <input type="text" class="regform-form__fullname" name="fullname" placeholder="Полное имя">
+                        </label>
+                        <label>
+                            Email<br>
+                            <input type="text" class="regform-form__email" name="email" placeholder="Адрес почты">
+                        </label>
+                        <label>
+                            Число билетов<br>
+                            <select class="regform-form__tickets-count" name="tickets-count" required>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </label>
+                        <label>
+                            Комментарии<br>
+                            <textarea name="regform-form__comments"></textarea>
+                        </label>
+                        <input type="submit" class="regform-form__button" value="Заказать">
+                    </fieldset>
+                </form>
+            </section>
+        </section>
+    </div>
+
+    <footer class="footer container">
+        <h5 class="liitle-logo">&copy; Styles Conference</h5>
+        <nav class="general-menu">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="speakers.html">Спикеры</a></li>
+                <li><a href="schedule.html">Расписание</a></li>
+                <li><a href="venue.html">Место проведения</a></li>
+                <li><a href="registration.html">Регистрация</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
