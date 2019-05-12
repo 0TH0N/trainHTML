@@ -1,1 +1,1 @@
-https://0th0n.github.io/trainHTML/index.html
+https://0th0n.github.io/trainHTML/
